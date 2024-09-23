@@ -1,9 +1,9 @@
 export const harvestPlants= (plantsArray) => {
     let harvestedPlants = [];
 
-    for ( const plant of plantsArray) {
+    for ( const plant of fieldArray) {
         let seedOutput = 0;
-        if (plant.type === "corn") {
+        if (plant.type === "Corn") {
             seedOutput = plant.output / 2
         } else {
             seedOutput = plant.output
@@ -19,6 +19,5 @@ export const harvestPlants= (plantsArray) => {
     }
 
     return harvestedPlants;
-    
 
 }

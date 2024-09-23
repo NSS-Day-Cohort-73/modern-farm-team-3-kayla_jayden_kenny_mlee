@@ -7,3 +7,4 @@ export function Catalog(harvestedPlants) {
         `;
     }
 }
+
